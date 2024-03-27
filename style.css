@@ -1,0 +1,342 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-image: url('Default_food_image_3.jpg'); /* Replace 'food_background.jpg' with your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    max-width: 600px;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #FF6347; /* Change color as per your brand */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #FF4500; /* Change color as per your brand */
+}
+
+/* Basic styles for the About Us section */
+
+.about-section {
+    background-color:#ad8d88 ; /* Light background color */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-section h2 {
+
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Basic styles for the Menu Highlights section */
+
+.menu-highlights {
+    background-color: black; /* White background color */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Light background color */
+}
+
+.menu-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.menu-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+
+/* Basic styles for the Special Offers section */
+
+.special-offers {
+    background-color:#ad8d88; /* Light background color */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.special-offers h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.offer {
+    margin-bottom: 30px;
+}
+
+.offer img {
+    max-width: 50%;
+    border-radius: 5px;
+}
+
+.offer h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.offer p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Basic styles for the Reservation or Order Online section */
+
+.reservation-section {
+    background-color: black; /* White background color */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.reservation-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: aqua;
+}
+
+.reservation-options {
+    display: flex;
+    justify-content: center;
+}
+
+.reservation-option {
+    flex: 0 1 45%; /* Adjust width of reservation options */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Light background color */
+}
+
+.reservation-option h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.reservation-option p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF6347; /* Button color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #FF4500; /* Button hover color */
+}
+
+/* Basic styles for the Chef Spotlight section */
+
+.chef-spotlight {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.chef-spotlight h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.chef {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff; /* White background color */
+    box-shadow: 0px 0px 10px rgba(169, 19, 19, 0.1); /* Box shadow for depth */
+}
+
+.chef img {
+    width: 200px; /* Adjust size as needed */
+    border-radius: 100;/* Round image */
+    margin-bottom: 20px;
+}
+
+.chef h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.chef p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Basic styles for the Contact Information section */
+
+.contact-info {
+    background-color:cadetblue; /* White background color */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-info h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.info-item {
+    flex: 0 1 33.33%; /* Adjust width of info items */
+    padding: 20px;
+}
+
+.info-item i {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #FF6347; /* Icon color */
+}
+
+.info-item p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Basic styles for the Footer section */
+
+.footer {
+    background-color: #333; /* Footer background color */
+    color: #fff; /* Footer text color */
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 0 1 30%; /* Adjust width of footer sections */
+}
+
+.footer-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.footer-section p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff; /* Footer link color */
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: #222; /* Footer bottom background color */
+    padding: 10px 0;
+    text-align: center;
+}
